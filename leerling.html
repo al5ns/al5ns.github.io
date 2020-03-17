@@ -4,16 +4,358 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+body{
+        background-color: rgb(14, 17, 102)  ;
+        padding: 0px;
+        margin:0px; 
+}
+header{
+    padding: 20px 50px 20px 40px;
+    background-color: rgb(233, 135, 7);
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(65, 48, 26);
+    
+}
+section.knop{
+    list-style-type: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(129, 74, 2);
+}
+section div{
+    padding: 10px 10px 10px 10px;
+    margin: 25px 30px 10px 30px;
+    background-color:rgb(34, 37, 126) ;
+    text-align: center;
+    text-decoration: none;
+}
+div.kalendar , div.schoolgids{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+section div div.entry-content{
+    font-size: 20px;
+}
+a.textkalendar{
+    font-size: 50px;
+}
+a.textschoolgids{
+    font-size: 50px;
+} 
+p.textleerlingenraad{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;      
+}
+div.textpta{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.toetsplanner{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.infoblokken:visited{
+    color: blue(255, 0, 0);
+}
+section.infoblokken{
+    color: blue(158, 0, 0);
+}
+div.pws{     
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.pwstitel p.titelleerlingenraad{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.titelleerlingenraad{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+    footer{
+        background-color: rgb(14, 50, 71);  
+        padding: 10px;
+    
+}
+section.infoblokken a:visited{
+    color: black;
+}
+section.infoblokken a{
+    color: black;
+}
+  
+    </style>
 </head>
+
+
+
 
 
 <body>
     
     <header><a href="index.html" >
-        <img src="BERN.png" height="10%" width="10%">  
-             </a> </header>
+        <img src="foto's/bern2.png" height="15%" width="15%">  
+             </a> 
+    </header>
 
+   
+   
+   
+   
+    <section class="knop">
+
+        <ul>
+            <li> <a href="#kalendar">  Kalendar  </a> </li>
+            <li> <a href="#schoolgids">  Schoolgids  </a> </li>
+            <li> <a href="#leerlingenraad">  Leerlingenraad  </a> </li>
+            <li> <a href="#pta">  Pta  </a> </li>
+            <li> <a href="#toetsplanner">  Toetsplanner  </a> </li>
+            <li> <a href="#profielwerkstuk">  Profielwerkstuk  </a> </li>
+        </ul>
+    </section>
              
-             
+          
+    
+
+    <section class="infoblokken">
+
+               <a id="kalendar"> <div class="kalendar">
+                    <a class="textkalendar" >  Kalendar</a>
+                    
+                    <div class="entry-content">
+                        <iframe src="//docs.google.com/viewer?url=https%3A%2F%2Fwww.bernardinuscollege.nl%2Fwp-content%2Fuploads%2F2017%2F07%2FJaarplanning-19-20-003.pdf&amp;hl=nl&amp;embedded=true" class="gde-frame" style="width:500px; height:500px; border: none;" scrolling="no"></iframe>
+                        <p class="gde-text"><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2017/07/Jaarplanning-19-20-003.pdf" class="gde-link">Downloaden (PDF, 126KB)</a></p>
+                    </div>
+                    
+                </div> </a>
+                
+               <a id="schoolgids"><div class="schoolgids">
+
+                    <a class="textschoolgids"> Schoolgids</a>
+                  
+                  <div class="entry-content">  <iframe src="https://docs.google.com/viewerng/viewer?url=https://www.bernardinuscollege.nl/wp-content/uploads/2019/09/Schoolgids-2019-2020-definitief.pdf&hl=nl&amp;embedded=true" class="gde-frame" style="width:500px; height:500px; border: none;" scrolling="no"></iframe>
+                    <p class="gde-text"><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/09/Schoolgids-2019-2020-definitief.pdf" class="gde-link">Downloaden (PDF, 1.29MB)</a></p>
+                  </div> </a>
+
+                </div>
+
+               <a id="leerlingenraad"> <div>
+                <img src="foto's/leerlingenraad.jpg">
+                <p class=titelleerlingenraad>Leerlingenraad</p>
+                <p class="textleerlingenraad"> 
+                De leerlingenraad behartigt de belangen van leerlingen. Veel voorkomende onderwerpen bij de leerlingenraad gaan bijvoorbeeld over schoolfeesten en buitenschoolse activiteiten, het leerlingenstatuut, het (mee)organiseren van een evenement op school en deelname in diverse commissies. Daarnaast is de leerlingenraad bevoegd om gevraagd en ongevraagd advies uit te brengen aan de medezeggenschapsraad, met name over zaken die leerlingen direct aangaan.
+                <br>
+                <br>   
+                Wil je meer weten?
+                   Neem contact op met <a href="mailto:lln@bernardinuscollege.nl">lln@bernardinuscollege.nl</a>
+                </p>
+                </div> </a>
+                
+                
+                <div>
+                <a id="pta"    >   <div class="textpta">
+
+                            
+                            <div class="et_pb_text_inner"><p><strong>PTA</strong></p>
+                            <p>Vanaf de vierde klas maken de leerlingen schoolexamens. In het Programma van Toetsing en Afsluiting (PTA) staat de volledige regelgeving rondom het maken van (school)examens. Ook staat hierin vermeld welke examens per periode worden gemaakt, inclusief de te leren stof. De PTA’s en de regelgeving voor dit schooljaar zijn hieronder te downloaden. Ook de handleiding voor het profielwerkstuk is hier te vinden.</p>
+                            <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bijlage-X-Beleidsregel-van-de-Inspecteur.pdf"  rel="noopener noreferrer">beleidsregel van de inspecteur</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/11/absentieformulier-schoolexamen-003-1.pdf">absentieformulier 2019-2020</a></p>
+                            <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-4-ath-19-20-def.pdf">Schoolexamenboekje 4 Atheneum 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-4-gym-19-20-def.pdf">Schoolexamenboekje 4 Gymnasium 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-4-havo-19-20-def.pdf">Schoolexamenboekje 4 Havo 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-5-ath-19-20-def.pdf">Schoolexamenboekje 5 Atheneum 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-5-gym-19-20-def.pdf">Schoolexamenboekje 5 Gymnasium 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-5-havo-19-20-def.pdf">Schoolexamenboekje 5 Havo 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-6-ath-19-20-def.pdf">Schoolexamenboekje 6 Atheneum 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/School-Examenboekje-6-gym-19-20-def.pdf">schoolexamenboekje 6 Gymnasium 19-20</a></p>
+                            <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/Centraal-Examenboekje-5-havo-19-20-def.pdf">Centraal Examenboekje 5 Havo 19-20</a><br><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2019/10/Centraal-Examenboekje-6-vwo-19-20-def.pdf">Centraal Examenboekje 6 VWO 19-20</a></p>
+                            <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bijlage-XII-formulier-melding-onregelmatigheid-schoolexamen.pdf"  rel="noopener noreferrer">Melding onregelmatigheid school examen</a></p>
+                            <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bijlage-IX-bijlage_1B_bij_CvTE-17.01277_Regeling_hulpmiddelen_centrale_examens_VO3.pdf"  rel="noopener noreferrer">Regeling hulpmiddelen centrale examen</a><br><a href="https://www.examenblad.nl/document/bijlage-2-bij-cvte-18-00959/2020/f=/Bijlage_2_bij_CvTE-18.00959_regeling_hulpmiddelen_ce_vo_2020.pdf"  rel="noopener noreferrer">Regeling hulpmiddelen centrale examen kandidaten met een beperking 2019-2020</a></p></div>
+                            </div>
+                    
+                </div> </a>
+
+               <a id="toetsplanner"> <div class="toetsplanner">
+                    <div class="et_pb_text_inner"><p><strong>Toetsplanner</strong></p>
+                        <p>Op onze school werken wij in ieder leerjaar met een toetsplanner. In dit overzicht vind je per vak wanneer wat getoetst wordt en de weging van elke toets.</p>
+                        <p><strong>Onderbouw</strong></p>
+                        <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/1H-Toetsplanner-1819.pdf" >Toetsplanner 1 Havo 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/2H-Toetsplanner-1819.pdf" >Toetsplanner 2 Havo 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/3H-Toetsplanner-1819.pdf" >Toetsplanner 3 Havo 2018-2019</a></p>
+                        <p class="p1"><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/1A-Toetsplanner-1819.pdf" >Toetsplanner 1 Atheneum 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/2A-Toetsplanner-1819.pdf" >Toetsplanner 2 Atheneum 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/3A-Toetsplanner-1819.pdf" >Toetsplanner 3 Atheneum&nbsp; 2018-2019</a></p>
+                        <p class="p1"><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/1G-Toetsplanner-1819.pdf" >Toetsplanner 1 Gymnasium 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/2G-Toetsplanner-1819.pdf" >Toetsplanner 2 Gymnasium 2018-2019</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/3G-Toetsplanner-1819.pdf" >Toetsplanner 3 Gymnasium 2018-2019</a></p>
+                        <p><strong>Bovenbouw</strong></p>
+                        <p><em>Havo 4<br><br>
+                        </em><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/aardrijkskunde-TR-4H-1819.pdf" >Aardrijkskunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bedrijfseconomie-TR-4H-1819.pdf" >Bedrijfseconomie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/biologie-TR-4H-1819.pdf" >Biologie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/BSM-TR-4H-1819.pdf" >BSM</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/CKV-TR-4H-1819.pdf" >CKV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Duits-TR-4H-1819.pdf" >Duits</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/economie-TR-4H-1819.pdf" >Economie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Engels-TR-4H-1819.pdf" >Engels</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/filosofie-TR-4H-1819.pdf" >Filosofie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Frans-TR-4H-1819.pdf" >Frans</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/geschiedenis-TR-4H-1819.pdf" >Geschiedenis</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/informatica-TR-4H-1819.pdf" >Informatica</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUBV-TR-4H-1819.pdf" >KUBV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUMU-TR-4H-1819.pdf" >KUMU</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/levensbeschouwing-TR-4H-1819.pdf" >Levensbeschouwing</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/maatschappijleer-TR-4H-1819.pdf" >Maatschappijleer</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/maatschappijwetenschappen-TR-4H-1718.pdf" >Maatschappijwetenschappen</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/natuurkunde-TR-4H-1819.pdf" >Natuurkunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Nederlands-TR-4H-1819.pdf" >Nederlands</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/scheikunde-TR-4H-1819.pdf" >Scheikunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-A-TR-4H-1819.pdf" >Wiskunde A</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-B-TR-4H-1819.pdf" >Wiskunde B</a></p>
+                        <p><em>Atheneum 4<br> <br>
+                        </em><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/aardrijkskunde-4-ath-TR-1819.pdf" >Aardrijkskunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bedrijfseconomie-4-ath-TR-1819.pdf" >Bedrijfseconomie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/biologie-4-ath-TR-1819.pdf" >Biologie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/BSM-4-ath-TR-1819.pdf" >BSM</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/CKV-4-ath-TR-1819.pdf" >CKV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Duits-4-ath-TR-1819.pdf" >Duits</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/economie-4-ath-TR-1819.pdf" >Economie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Engels-4-ath-TR-1819.pdf" >Engels</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/filosofie-4-ath-TR-1819.pdf" >Filosofie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Frans-4-ath-TR-1819.pdf" >Frans</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/geschiedenis-4-ath-TR-1819.pdf" >Geschiedenis</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/informatica-4-ath-TR-1819.pdf" >Informatica</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUBV-4-ath-TR-1819.pdf" >KUBV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUMU-4-ath-TR-1819.pdf" >KUMU</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/levensbeschouwing-4-ath-TR-1819.pdf" >Levensbeschouwing</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/maatschappijleer-4-ath-TR-1819.pdf" >Maatschappijleer</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/natuurkunde-4-ath-TR-1819.pdf" >Natuurkunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Nederlands-4-ath-TR-1819.pdf" >Nederlands</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/scheikunde-4-ath-TR-1819.pdf" >Scheikunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-A-4-ath-TR-1819.pdf" >Wiskunde A</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-B-4-ath-TR-1819.pdf" >Wiskunde B</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-C-4-ath-TR-1819.pdf" >Wiskunde C</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-D-4-ath-TR-1819.pdf" >Wiskunde D</a></p>
+                        <p><em>Atheneum 5<br><br>
+                        </em><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/aardrijkskunde-5-ath-TR-1819.pdf" >Aardrijkskunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/biologie-5-ath-TR-1819.pdf" >Biologie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/BSM-5-ath-TR-1819.pdf" >BSM</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/CKV-5-ath-TR-1819.pdf" >CKV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Duits-5-ath-TR-1819.pdf" >Duits</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/economie-5-ath-TR-1819.pdf" >Economie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Engels-5-ath-TR-1819.pdf" >Engels</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/filosofie-5-ath-TR-1819.pdf" >Filosofie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Frans-5-ath-TR-1819.pdf" >Frans</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/geschiedenis-5-ath-TR-1819.pdf" >Geschiedenis</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/informatica-5-ath-TR-1819.pdf" >Informatica</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUBV-5-ath-TR-1819.pdf" >KUBV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUMU-5-ath-TR-1819.pdf" >KUMU</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/levensbeschouwing-5-ath-TR-1819.pdf" >Levensbeschouwing</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/MAW-5-ath-TR-1819.pdf" >Maatschappijwetenschappen</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/MO-5-ath-TR-1819.pdf" >management en organisatie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/natuurkunde-5-ath-TR-1819.pdf" >Natuurkunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Nederlands-5-ath-TR-1819.pdf" >Nederlands</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/scheikunde-5-ath-TR-1819.pdf" >Scheikunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-A-5-ath-TR-1819.pdf" >Wiskunde A</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-B-5-ath-TR-1819.pdf" >Wiskunde B</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-C-5-ath-TR-1819.pdf" >Wiskunde C</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-D-5-ath-TR-1819.pdf" >Wiskunde D</a></p>
+                        <p><em>Gymnasium 4<br><br>
+                        </em><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/aardrijkskunde-4-gym-TR-1819.pdf" >Aardrijkskunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/bedrijfseconomie-4-gym-TR-1819.pdf" >Bedrijfseconomie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/biologie-4-gym-TR-1819.pdf" >Biologie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/BSM-4-gym-TR-1819.pdf" >BSM</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Duits-4-gym-TR-1819.pdf" >Duits</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/economie-4-gym-TR-1819.pdf" >Economie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Engels-4-gym-TR-1819.pdf" >Engels</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/filosofie-4-gym-TR-1819.pdf" >Filosofie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Frans-4-gym-TR-1819.pdf" >Frans</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/geschiedenis-4-gym-TR-1819.pdf" >Geschiedenis</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/informatica-4-gym-TR-1819.pdf" >Informatica</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Grieks-4-gym-TR-1819.pdf" >Grieks</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUBV-4-gym-TR-1819.pdf" >KUBV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUMU-4-gym-TR-1819.pdf" >KUMU</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Latijn-4-gym-TR-1819.pdf" >Latijn</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/levensbeschouwing-4-gym-TR-1819.pdf" >Levensbeschouwing</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/maatschappijleer-4-gym-TR-1819.pdf" >Maatschappijleer</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/natuurkunde-4-gym-TR-1819.pdf" >Natuurkunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Nederlands-4-gym-TR-1819.pdf" >Nederlands</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/scheikunde-4-gym-TR-1819.pdf" >Scheikunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-A-4-gym-TR-1819.pdf" >Wiskunde A</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-B-4-gym-TR-1819.pdf" >Wiskunde B</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-C-4-gym-TR-1819.pdf" >Wiskunde C</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-D-4-gym-TR-1819.pdf" >Wiskunde D</a></p>
+                        <p><em>Gymnasium 5</em></p>
+                        <p><a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/aardrijkskunde-5-gym-TR-1819.pdf" >Aardrijkskunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/biologie-5-gymTR-1819.pdf" >Biologie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/BSM-5-gym-TR-1819.pdf" >BSM</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Duits-5-gymTR-1819.pdf" >Duits</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/economie-5-gym-TR-1819.pdf" >Economie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Engels-5-gym-TR-1819.pdf" >Engels</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/filosofie-5-gym-TR-1819.pdf" >Filosofie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Frans-5-gym-TR-1819.pdf" >Frans</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/geschiedenis-5-gym-TR-1819.pdf" >Geschiedenis</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Grieks-5-gym-TR-1819.pdf" >Grieks</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/informatica-5-gym-TR-1819.pdf" >Informatica</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUBV-5-gym-TR-1819.pdf" >KUBV</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/KUMU-5-gym-TR-1819.pdf" >KUMU</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Latijn-5-gym-TR-1819.pdf" >Latijn</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/levensbeschouwing-5-gym-TR-1819.pdf" >Levensbeschouwing</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/MAW-5-gym-TR-1819.pdf" >Maatschappijwetenschappen</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/MO-5-gym-TR-1819.pdf" >management en organisatie</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/natuurkunde-5-gym-TR-1819.pdf" >Natuurkunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/Nederlands-5-gym-TR-1819.pdf" >Nederlands</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/scheikunde-5-gym-TR-1819.pdf" >Scheikunde</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-A-5-gym-TR-1819.pdf" >Wiskunde A</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-B-5-gym-TR-1819.pdf" >Wiskunde B</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-C-5-gym-TR-1819.pdf" >Wiskunde C</a><br>
+                        <a href="https://www.bernardinuscollege.nl/wp-content/uploads/2018/09/wiskunde-D-5-gym-TR-1819.pdf" >Wiskunde D</a></p></div>
+
+                </div> </a>
+
+                <a id="profielwerkstuk"><div class="pws">
+
+                        <p class="pwstitel">
+                            Profielwerkstuk
+                        </p>
+
+
+
+                        <p>Het Bernardinuscollege kent een lange traditie op het gebied van de vorming van jonge mensen op intellectueel, cultureel en maatschappelijk gebied waarbij leerlingen aangemoedigd en uitgedaagd worden om hun kwaliteiten te ontwikkelen. In onze huidige steeds sneller veranderende maatschappij zijn creativiteit, inlevingsvermogen en de durf om het onbekende tegemoet te treden belangrijke vereisten; dit zijn dan ook onmisbare onderdelen van ons onderwijs.
+                            <br><br>
+                            Ieder kind heeft kwaliteiten die wij tot bloei willen laten komen, daarom houden wij rekening met de verschillen tussen kinderen. Het geven van kansen aan de leerlingen en leveren van maatwerk vinden wij dan ook belangrijk om zo te voldoen aan de behoeften van onze leerlingen en om hen zo goed mogelijk voor te bereiden op hun leven.
+                            <br><br>
+                            Wij geven kansen aan de leerlingen en leveren maatwerk om zodoende de eerste twee leerjaren te gebruiken om leerlingen optimaal te laten ontwikkelen. De mogelijkheid is aanwezig dat uw kind beschikt over meer of hogere begaafdheden. Door middel van maatwerk realiseren wij een leerroute die past bij het kind. Een voorbeeld hiervan is een leerling op havo 3 die het vak wiskunde volgt op vwo-niveau, een atheneumleerling die een aantal vakken op 4 atheneum en een aantal op 5 atheneum volgt en een havoleerling die in de vijfde klas het vak Engels op vwo-niveau zal afsluiten.
+                            <br><br>
+                            Ook hebben we een gevarieerd aanbod dat aansluit op de verschillende behoeften van leerlingen. Denk hierbij aan het technasium voor leerlingen die willen onderzoeken en ontwerpen, de Businessschool voor leerlingen die willen ondernemen of Cambridge voor leerlingen die op gebied van Engels willen excelleren. 
+                            <br><br>
+                            Daarnaast wordt op havo op projectbasis aandacht besteed aan de TEA (techniek, economie en arts), op het atheneum aan het ontwikkelen van academische vaardigheden en op het gymnasium aan het Apolloprogramma, waarbij leerlingen op creatieve wijze uitgedaagd worden.</p>
+
+                </div> </a>
+
+
+
+    </section>
+
+    <footer> <a  href="https://www.linkedin.com/company/bernardinuscollege/"> <img src="https://bernardinus.college/wp-content/uploads/2019/08/linkedin.svg" class="attachment-full size-full" alt="" height="84.6" width="85.1"> </a> 
+        <a  href="https://www.facebook.com/Bernardinuscollege-Heerlen-260634677311710/"> <img src="https://bernardinus.college/wp-content/uploads/2019/08/facebook.svg" class="attachment-full size-full" alt="" height="84.6" width="85.1"> </a> 
+        <a  href="https://www.instagram.com/bernardinus.college/"> <img src="https://bernardinus.college/wp-content/uploads/2019/08/instagram.svg" class="attachment-full size-full" alt="" height="84.6" width="85.1"> </a> 
+    </footer>
+
 </body>
 </html>
